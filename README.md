@@ -12,7 +12,7 @@ Most Problems will be solved in python or javaScript. There will be implementati
     1. [x] Linear search
     1. [x] Binery search
 - Recursion
-    1. [x] Notes
+    1. [ ] Notes
 - Sorting 
     1. [x] Bubble sort
     1. [ ] Inseartion sort
