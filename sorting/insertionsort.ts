@@ -1,11 +1,17 @@
-let arr: number[] = [1, 2, 3, 24, 1]
-
-let i: number = 1;
-let current: number;
-for (let x of arr) {
-    current=x
-    if (x > arr[i]) {
-        current=arr[i]
-        arr[i]=x
+function insertionSort1(n, arr) {
+    let i: number = 1
+    let j: number
+    let currentValue: number
+    while (i < n) {
+        currentValue = arr[i]
+        j = i - 1
+        while (j >= 0 && arr[j] > currentValue) {
+            arr[j + 1] = arr[j]
+            // console.log(arr.join(' '))
+            j--
+        }
+        arr[j + 1] = currentValue
+        i++
     }
+    console.log(arr.join(' '))
 }

@@ -40,4 +40,6 @@ function hackerlandRadioTransmitters(building: number[], range: number): number 
  * 
  * Since the loop control variable and its range is same in both inner and 
  * outer loops; time complexity is O(n)
+ * 
+ * - Anandu Babu
  */

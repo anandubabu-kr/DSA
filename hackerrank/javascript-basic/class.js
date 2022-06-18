@@ -1,25 +1,25 @@
 
 class User {
-    constructor(username){
-        this.username=username
+    constructor(username) {
+        this.username = username
     }
-    getUsername(){
+    getUsername() {
         return this.username
     }
-    setUsername(username){
-        this.username=username
+    setUsername(username) {
+        this.username = username
     }
 }
 
 class ChatUser extends User {
-    constructor(username){
+    constructor(username) {
         super(username)
-        this.count=0
+        this.count = 0
     }
-    giveWarning(){
+    giveWarning() {
         this.count++
     }
-    getWarningCount(){
+    getWarningCount() {
         return this.count
     }
 }
