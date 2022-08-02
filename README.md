@@ -5,9 +5,9 @@ Most Problems will be solved in python or javaScript. There will be implementati
 ## Main topics covered 
 - Linear Data Structures
     1. [x] Arrays
-    1. [x] Linked lists
-    1. [x] Stacks
-    1. [x] Queues
+    1. [ ] Linked lists
+    1. [ ] Stacks
+    1. [ ] Queues
 - Searching
     1. [x] Linear search
     1. [x] Binery search
@@ -15,9 +15,12 @@ Most Problems will be solved in python or javaScript. There will be implementati
     1. [ ] Notes
 - Sorting 
     1. [x] Bubble sort
-    1. [ ] Inseartion sort
+    1. [x] Inseartion sort
     1. [x] Selection sort
     1. [ ] Merge sort
     1. [ ] Quick sort
-- Implementations
-    
+- Trees
+- Graphs
+    1. [ ] depth first
+    1. [ ] bredth first
+    1. [ ] 

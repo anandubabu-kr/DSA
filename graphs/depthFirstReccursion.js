@@ -9,8 +9,8 @@ const graph = {
 
 const depthFirstTraversalR = (graph, start) => {
     console.log(start)
-    for(let neighbor of graph[start]){
-        depthFirstTraversalR(graph,neighbor)
+    for (let neighbor of graph[start]) {
+        depthFirstTraversalR(graph, neighbor)
     }
 }
 

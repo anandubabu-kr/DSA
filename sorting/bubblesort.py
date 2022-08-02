@@ -21,5 +21,5 @@ print('Sorted array : ', arr, '\nn', len,
 """
     Basically it takes n steps thats why we use i 
     In each step the largest will be placed in its right position
-        j will compare each element from first till it finds the 
+    j will compare each element from first till it finds the 
 """
