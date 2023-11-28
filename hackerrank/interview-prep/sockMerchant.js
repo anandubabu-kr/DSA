@@ -15,9 +15,9 @@ function sockMerchant(n, ar) {
     count[element] = (count[element] || 0) + 1;
   });
 
-  console.log(count);
+  // console.log(count);
   for (let key in count) {
-    console.log(parseInt(count[key] / 2));
+    // console.log(parseInt(count[key] / 2));
     pair += parseInt(count[key] / 2);
   }
 
